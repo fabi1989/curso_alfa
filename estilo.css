@@ -47,6 +47,9 @@ header.fila{
     color: white;
 }
 
+
+
+
 #icono3{
     background: yellow;
     margin: 5px;
@@ -78,6 +81,10 @@ li a{
     text-decoration: none;
     color: white;
     background: mediumvioletred;
+}
+
+#btnmenu{
+    width: 200px;
 }
 
 #seccion3{
@@ -184,9 +191,17 @@ PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc
 	.col-lg-2{width: 16.66666667%;}
 	.col-lg-1{width: 8.33333333%;}
 	.col-lg-0{display:none;}
-	body {background-color: green}
-	
+	body {background-color: white}
 
+	#menu{
+        gap: 15px;
+    }
+
+    #seccion4{
+        display: flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+    }
 	
 }
 
@@ -209,7 +224,40 @@ ESCRITORIO MEDIANO - MEDIUM (md) - revisamos en tablet horizontal
 	.col-md-2{width: 16.66666667%;}
 	.col-md-1{width: 8.33333333%;}
 	.col-md-0{display:none;}
-	body {background-color: yellow}
+	body {background-color: white}
+
+    .article{
+        display: flex;
+        flex-wrap: wrap;
+        width: 200px;
+    }
+
+    #seccion4{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    /* falta modificar botones nabvar */
+
+    #filaseccion_2{
+        display: flex;
+        justify-content: center;
+    }
+    #menu{
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    #btnmenu{
+        width: 400px;
+    }
+
+    #seccion4{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
 
 
 }
@@ -265,6 +313,12 @@ PANTALLA DE TABLET - SMALL (sm) - revisamos en tablet vertical
         justify-content: center;
     }
 
+    .article{
+        display: flex;
+        flex-wrap: wrap;
+        width: 200px;
+    }
+
 
 }
 /*=============================================PANTALLA DE PHONES -
@@ -284,7 +338,7 @@ EXTRA SMALL (xs) - revisamos en movil horizontal 480px o vertical
 	.col-xs-2{width: 16.66666667%;}
 	.col-xs-1{width: 8.33333333%;}
 	.col-xs-0{display:none;}
-	body {background-color: blue;}
+	body {background-color: white;}
 	#cabecera {
 		text-align: center;
 		font-weight: bold;
