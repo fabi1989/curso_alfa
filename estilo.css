@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+
+
 
 header.fila{
     display: flex;
@@ -10,6 +13,11 @@ header.fila{
     align-items: center;
     margin-bottom: 20px;
 }
+
+h1{
+    font-family: 'Lumanosimo', cursive;
+}
+
 
 .contenedor{
 	position:relative;
@@ -20,6 +28,7 @@ header.fila{
 
 #logo{
     font-size: 60px;
+    font-family: 'Lumanosimo', cursive;
 }
 
 #iconos_esquina{
@@ -85,6 +94,11 @@ li a{
 
 #btnmenu{
     width: 200px;
+    font-family: 'Lumanosimo', cursive;
+}
+
+#textcenter{
+    justify-content: center;
 }
 
 #seccion3{
