@@ -176,6 +176,23 @@ article{
     padding: 5px;
 }
 
+.icono_1{
+    position: relative;
+}
+
+#ico_1{
+    position: absolute;
+    width: 16px;
+}
+
+.icono_2{
+    position: relative;
+}
+#ico_2{
+    position: absolute;
+    width: 16px;
+}
+
 
 footer{
     display: flex;
